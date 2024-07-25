@@ -15,21 +15,21 @@
 
 #### Concrete class
 
-- ** Concrete class ** : Normally I am creating a class that is concrete class. It means this which behavior expose or which behavior not expose. Note : `Concrete class : knows all the implementation of abstraction`
+- **Concrete class**: Normally I am creating a class that is concrete class. It means this which behavior expose or which behavior not expose. Note : `Concrete class : knows all the implementation of abstraction`
 
 > [!NOTE]
 > নরমালি যদি আমার কোন class ক্রিয়েট করি সেটা হলো কংক্রিট ক্লাস । ক্লাসে যা যা behavior expose করার দরকার বা যা যা behavior থাকা দরকার তা আছে , তাহলে আমরা বলতে পারি এটা কমপ্লিট ক্লাস । কমপ্লিট ক্লাসই concrete class. 🧱
 
 #### Abstract class
 
-** Abstract class **: `Abstract class: knows partial implementation or no implementation of abstraction`. Simple inherit use `extends` keyword
+- **Abstract class**: `Abstract class: knows partial implementation or no implementation of abstraction`. Simple inherit use `extends` keyword
 
 > [!NOTE]
 > কখনো class ডিজাইন করতে গিয়ে মনে হয় এমন একটা class ডিজাইন করলাম যে ক্লাসের behavior এবং তার exposer কেমন হবে তা আমরা জানি, মানে হচ্ছে আমার abstraction কিভাবে হবে তার সম্পর্কে অবগত । ওই abstraction কিছু জিনিস কিভাবে ইমপ্লিমেন্ট করা হবে এটা আমার জানি না , তখন আমরা ওই ক্লাসের বিহেভের গুলো কে বলতে পারি abstract । ওই behavior এর সম্পর্কে ওই class কোন ধারণা নেই| কেউ যদি ওই abstract ক্লাসটাকে inherit করে কাজ করে সেই ক্লাসটি নিজেই ওই behavior এর implementation বানিয়ে নেবে | 😉
 
 #### Interface
 
-** Interface **: : interface is a just abstraction. `No implement of abstraction`. `implements` keyword use
+- **Interface**: : interface is a just abstraction. `No implement of abstraction`. `implements` keyword use
 
 > [!NOTE]
 > Interface behavior এর একটা abstraction দেয় | 😅
@@ -47,10 +47,11 @@
 When you use abstract and interface ? \*\* language depended question
 
 > [!NOTE]
-> Ans: ধরি আমার একটা abstract ক্লাস তার মধ্যে শুধুমাত্র abstract method আছে , কিন্তু কোন implemented মেথড নেই তখন চিন্তা করতে হবে ওই ক্লাসটা abstract ক্লাস হওয়ার কোন দরকার আছে কি-না , ফাস্ট চেক করতে হবে সব method abstract method টা কিনা , সেকেন্ড চেক কোন hierarchical রিলেশন দরকার আছে কিনা "is a relationship" দরকার আছে কিনা তার উপর ডিপেন্ড করে abstract ক্লাস তৈরি করব।
+> Ans: ধরি আমার একটা abstract ক্লাস তার মধ্যে শুধুমাত্র abstract method আছে , কিন্তু কোন implemented মেথড নেই তখন চিন্তা করতে হবে ওই ক্লাসটা abstract ক্লাস হওয়ার কোন দরকার আছে কি-না , ফাস্ট চেক করতে হবে সব method abstract method টা কিনা , সেকেন্ড চেক কোন hierarchical রিলেশন দরকার আছে কিনা _"is a relationship"_ দরকার আছে কিনা তার উপর ডিপেন্ড করে abstract ক্লাস তৈরি করব।
 
 > [!NOTE]
-> is a relationship থাকে and যদি implemented এবং unimplemented behavior থাকে তাহলে অ্যাপসটা ক্লাস না হলে interface
+>
+> _is a relationship_ থাকে and যদি implemented এবং unimplemented behavior থাকে তাহলে অ্যাপসটা ক্লাস না হলে interface
 
 > [!TIP]
-> interface flexible. behavior related
+> Interface flexible. behavior related
