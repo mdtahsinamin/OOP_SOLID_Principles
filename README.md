@@ -124,13 +124,16 @@ Changes is the only constant in Software development.
 
 ### Connecting
 
-> [!NOTE]
+> [!TIP]
 > Encapsulation &rarr; সিঙ্গেল ইউনিট এর মধ্যে সবকিছু encapsulate করব। Encapsulate করার সময় খেয়াল রাখবো যেটা ভেরি করে সেগুলো আলাদা রাখবো আর যেগুলো যেগুলো ফিক্স তাদের আলাদা রাখবো। Encapsulate করার সময় `Single Responsibility principle` খেয়াল রাখবো যেটা Encapsulate বেটার করে, Proper Encapsulate করতে পারলে আমরা `loosely coupling` এন্ড `high cohesion` achieve করতে পারব। `High cohesion` achieve করতে হলে `single responsibility principle`, `encapsulate what varies ` সাহায্য করবে, loosely coupling এর ক্ষেত্রে `law of Demeter` সাহায্য করবে |
 
+> [!TIP]
 > Composition &rarr; একটা অবজেক্ট অন্য অবজেক্ট উপর ডিপেন্ডেন্ট কে আমরা কম্পোজিশন বলে থাকি। `Open-closed principle` অ্যান্ড `Dependency inversion principle` ফলো করলে `composition` বেটার হবে । `Coupling` এন্ড `composition` সাথে রিলেশনের আছে `program to an interface not an implementation` | `Loosely coupling` জন্য interface উপর ডিপেন্ডেন্ট হব।
 
+> [!TIP]
 > Abstraction &rarr; Overall সবকিছুই `abstraction`. `Open-closed principle`, `Dependency inversion principle` এন্ড `interface segregation principle` ফলো করলে আমরা বেটার `abstraction` পাবো।
 
+> [!TIP]
 > Inheritance &rarr; `Inheritance` এর জন্য `liskov substitution principle` ফলো করলে বেটার `Inheritance` পাওয়া যাবে। `Inheritance` এন্ড `composition` মধ্যে আমরা `Inheritance` কম ইউজ করবো `composition` বেশি ইউজ করব (Favor composition over inheritance)
 
 ### Project Ideas:

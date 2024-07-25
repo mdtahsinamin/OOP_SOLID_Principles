@@ -10,6 +10,7 @@ Abstraction differ in context. For example `Flight simulator ✈️` app , gener
 
 - In general abstraction define (context based) the representation `state` and the `behavior`.
 
+> [!NOTE]
 > কোন context আমারা জিনিসটাকে রিপ্রেজেন্ট করতেছি , তার উপর ডিপেন্ড করে আমারা কতটুকু রিপ্রেজেন্ট করতেছি। 😵
 
 - Don't expose everything. Abstraction shows only important things to the user and hides the internal details. How much we expose the details based on context.
@@ -29,10 +30,14 @@ class Account {
 }
 ```
 
+> [!NOTE]
 > class define the abstraction of Account. Every class is Abstraction.
 
+> [!NOTE]
 > context উপর বেজ করে আমি রিয়েল লাইফে এর কতটুকু জিনিস আমি আমার code এ নিয়ে আসতেছি, সেখানে আবার কতটুকু expose করতে আছি অন্যদের সাথে এটাই &rarr; abstraction 😵
 
-Based on Context, how much I implement in my code and how much I expose it with others.
+> [!IMPORTANT]
+> Based on Context, how much I implement in my code and how much I expose it with others.
 
+> [!TIP]
 > আমি কোন একটা জিনিস বুঝার জন্য বা আইডিয়া করার জন্য যতটুকু আমি জানতে আছি এটাই &rarr; abstraction. 😵

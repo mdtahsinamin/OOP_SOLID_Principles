@@ -7,8 +7,8 @@ The action of enclosing something in or as if in a capsule.
 1. The idea of bundling data and method that work on that data within one unit.
 
 2. Used to hide the internal representation, or state of an object from the outside.
-
-> যতোটুকু দরকার তার বাহিরে আমি কিছু expose করবো না , আমি hide করব 🥷
+   > [!NOTE]
+   > যতোটুকু দরকার তার বাহিরে আমি কিছু expose করবো না , আমি hide করব 🥷
 
 Encapsulate what varies:
 
@@ -30,17 +30,18 @@ const getOrderTotal = (order) => {
 1. Method/Function Level:
 
 - In here subtotal and tax calculation logics are encapsulate under the function.
-
-> একটা function মধ্যে কোন লজিক কে ইন encapsulate করা যায় তাকে method level encapsulate বলে 🥷
+  > [!NOTE]
+  > একটা function মধ্যে কোন লজিক কে ইন encapsulate করা যায় তাকে method level encapsulate বলে 🥷
 
 1. Class Level:
 
 - In class level, we encapsulate the property and behavior.
 
 - How I expose or hide the behavior or property using the access modifiers.
+  > [!NOTE]
+  > class level এর মধ্যে similar ডাটা এন্ড behavior কে এক জায়গায় এনে encapsulate করতেছি তাকে class লেভেল encapsulate বলে 🥷 |
 
-> class level এর মধ্যে similar ডাটা এন্ড behavior কে এক জায়গায় এনে encapsulate করতেছি তাকে class লেভেল encapsulate বলে 🥷 |
-
+> [!NOTE]
 > expose করা বা hide করা এটা কিভাবে ensure করব তখন আমরা access modifier ইউজ করি |
 
 ```js
