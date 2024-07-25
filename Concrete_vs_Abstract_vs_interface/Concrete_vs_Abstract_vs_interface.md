@@ -4,18 +4,19 @@
 
 1. Class concept come from, I am need a structure for create an object, so-that I am create object more ever i need using that structure. Class give a structure of object.
 
-   > [!TIP]
-   > ক্লাসের কনসেপ্ট কিভাবে আসছিল: অবজেক্ট ক্রিয়েট এর জন্য একটা structure দরকার যাতে ওই structure ধরে আমরা অবজেক্ট ক্রিয়েট করতে পারি| 🫗
+> [!TIP]
+> ক্লাসের কনসেপ্ট কিভাবে আসছিল: অবজেক্ট ক্রিয়েট এর জন্য একটা structure দরকার যাতে ওই structure ধরে আমরা অবজেক্ট ক্রিয়েট করতে পারি| 🫗
 
 2. Inheritance concept come from, I have two similar classes, conceptually tell that two classes are same type, so I am create a parent class that have similar behavior inherit the child class.
-   > [!TIP]
-   > দুইটা অবজেক্ট similar কাজ করে, conceptually দুইটা অবজেক্ট একই টাইপের বা রিলেটেড । তাই আমরা parent and child relationship এ গেছি। 🥳
+> [!TIP]
+> দুইটা অবজেক্ট similar কাজ করে, conceptually দুইটা অবজেক্ট একই টাইপের বা রিলেটেড । তাই আমরা parent and child relationship এ গেছি। 🥳
 
 ### Concept :
 
 - Concrete class : Normally I am creating a class that is concrete class. It means this which behavior expose or which behavior not expose. Note : `Concrete class : knows all the implementation of abstraction`
-  > [!NOTE]
-  > নরমালি যদি আমার কোন class ক্রিয়েট করি সেটা হলো কংক্রিট ক্লাস । ক্লাসে যা যা behavior expose করার দরকার বা যা যা behavior থাকা দরকার তা আছে , তাহলে আমরা বলতে পারি এটা কমপ্লিট ক্লাস । কমপ্লিট ক্লাসই concrete class. 🧱
+
+> [!NOTE]
+> নরমালি যদি আমার কোন class ক্রিয়েট করি সেটা হলো কংক্রিট ক্লাস । ক্লাসে যা যা behavior expose করার দরকার বা যা যা behavior থাকা দরকার তা আছে , তাহলে আমরা বলতে পারি এটা কমপ্লিট ক্লাস । কমপ্লিট ক্লাসই concrete class. 🧱
 
 Abstract class: `Abstract class: knows partial implementation or no implementation of abstraction`. Simple inherit use `extends` keyword
 

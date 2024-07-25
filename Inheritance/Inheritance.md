@@ -7,11 +7,11 @@ Inheritance : `Hierarchical Classification`
 1. One part : `Code re-used`:
    I have two object, like : Object A and Object B. In two object has similarity in behavior. Say two objects are same type. So, say code duplication, same work happened in two different objects. To avoid code duplication, So I am create a `super class`, and duplicate the common behavior in `super class`. Now Object A and Object B inherit from super class. Now Object A and Object now access the behavior of super class.
 
-   > [!NOTE]
-   > ধরি আমার কাছে দুইটি ক্লাস আছে। দুইটা ক্লাস বা অবজেক্ট এর বিহেবিয়ার সেম। তাই বলতে পারি দুইটি ক্লাস সেইম টাইপের বা সেম টাইপের কিছু কাজ করতেছে। এর ফলে এখানে কোড ডুপ্লিকেশন হচ্ছে কোড ডুপ্লিকেশন যেন না হয় তাই আমরা একটা super class ক্রিয়েট করছি, বাকি ক্লাসগুলো ওই super class থেকে সবকিছু ইনহেরিট করছে বিহেভিয়ার এবং property মানে হচ্ছে আমরা সুপার ক্লাসের মধ্যে আমরা কমন বিহেভের গুলো রাখবো।
+> [!NOTE]
+> ধরি আমার কাছে দুইটি ক্লাস আছে। দুইটা ক্লাস বা অবজেক্ট এর বিহেবিয়ার সেম। তাই বলতে পারি দুইটি ক্লাস সেইম টাইপের বা সেম টাইপের কিছু কাজ করতেছে। এর ফলে এখানে কোড ডুপ্লিকেশন হচ্ছে কোড ডুপ্লিকেশন যেন না হয় তাই আমরা একটা super class ক্রিয়েট করছি, বাকি ক্লাসগুলো ওই super class থেকে সবকিছু ইনহেরিট করছে বিহেভিয়ার এবং property মানে হচ্ছে আমরা সুপার ক্লাসের মধ্যে আমরা কমন বিহেভের গুলো রাখবো।
 
-   > [!NOTE]
-   > এখানে এ যদি সুপার ক্লাস A হয় এবং B class যদি A class কে inherit করে তাহলে B ক্লাস A ক্লাসের সব behavior গুলো পাবে কিন্তু private behavior পাবেনা।
+> [!NOTE]
+> এখানে এ যদি সুপার ক্লাস A হয় এবং B class যদি A class কে inherit করে তাহলে B ক্লাস A ক্লাসের সব behavior গুলো পাবে কিন্তু private behavior পাবেনা।
 
 1. Second Part : `Hierarchical Classification` Representation / Abstraction of hierarchical relationship.
 
@@ -41,13 +41,13 @@ In oop inherit means, child inherit all of behavior from parent, expect private 
 
 - Inheritance break the encapsulation of the super class
 
-  > [!WARNING]
-  > যখন একটা ক্লাস অন্য আরেকটা ক্লাসকে inherit করে তখন প্যারেন্টের ক্লাসের বেশিরভাগ জিনিস child ক্লাসের কাছে এক্সপোস সো এখানে Encapsulation ব্রেক হচ্ছে |
+> [!WARNING]
+> যখন একটা ক্লাস অন্য আরেকটা ক্লাসকে inherit করে তখন প্যারেন্টের ক্লাসের বেশিরভাগ জিনিস child ক্লাসের কাছে এক্সপোস সো এখানে Encapsulation ব্রেক হচ্ছে |
 
 - A subclass can't reduce the interface of the superclass
 
-  > [!WARNING]
-  > একটা Sub ক্লাস কোন একটা super class কে inherit করছে , ধরো parent(super) ক্লাসের একটি পাবলিক মেথড আছে , child ক্লাসের মধ্যে ধরে নিতে হবে ওই method টি পাবলিক আছে। কোনভাবে ওই method টিকে child ক্লাস private করতে পারবে না।
+> [!WARNING]
+> একটা Sub ক্লাস কোন একটা super class কে inherit করছে , ধরো parent(super) ক্লাসের একটি পাবলিক মেথড আছে , child ক্লাসের মধ্যে ধরে নিতে হবে ওই method টি পাবলিক আছে। কোনভাবে ওই method টিকে child ক্লাস private করতে পারবে না।
 
 - Subclasses are tightly coupled to superclasses
 

@@ -30,16 +30,16 @@ const getOrderTotal = (order) => {
 1. Method/Function Level:
 
 - In here subtotal and tax calculation logics are encapsulate under the function.
-  > [!NOTE]
-  > একটা function মধ্যে কোন লজিক কে ইন encapsulate করা যায় তাকে method level encapsulate বলে 🥷
+> [!NOTE]
+> একটা function মধ্যে কোন লজিক কে ইন encapsulate করা যায় তাকে method level encapsulate বলে 🥷
 
 1. Class Level:
 
 - In class level, we encapsulate the property and behavior.
 
 - How I expose or hide the behavior or property using the access modifiers.
-  > [!NOTE]
-  > class level এর মধ্যে similar ডাটা এন্ড behavior কে এক জায়গায় এনে encapsulate করতেছি তাকে class লেভেল encapsulate বলে 🥷 |
+> [!NOTE]
+> class level এর মধ্যে similar ডাটা এন্ড behavior কে এক জায়গায় এনে encapsulate করতেছি তাকে class লেভেল encapsulate বলে 🥷 |
 
 > [!NOTE]
 > expose করা বা hide করা এটা কিভাবে ensure করব তখন আমরা access modifier ইউজ করি |
