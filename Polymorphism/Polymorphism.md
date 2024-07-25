@@ -16,5 +16,6 @@ Types of Polymorphism
 
 - Static or compile-time polymorphism
 - Dynamic or run-time polymorphism
-  > [!NOTE]
-  > কোন একটা জিনিস different situation different behavior করতে পারে সেটাই হলো polymorphism behavior 🙂
+  
+> [!NOTE]
+> কোন একটা জিনিস different situation different behavior করতে পারে সেটাই হলো polymorphism behavior 🙂
