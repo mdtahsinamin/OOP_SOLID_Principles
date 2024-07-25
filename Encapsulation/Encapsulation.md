@@ -7,8 +7,8 @@ The action of enclosing something in or as if in a capsule.
 1. The idea of bundling data and method that work on that data within one unit.
 
 2. Used to hide the internal representation, or state of an object from the outside.
-   > [!NOTE]
-   > যতোটুকু দরকার তার বাহিরে আমি কিছু expose করবো না , আমি hide করব 🥷
+> [!NOTE]
+> যতোটুকু দরকার তার বাহিরে আমি কিছু expose করবো না , আমি hide করব 🥷
 
 Encapsulate what varies:
 
