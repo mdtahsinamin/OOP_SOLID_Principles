@@ -4,8 +4,8 @@ Inheritance : `Hierarchical Classification`
 
 ## Why Inheritance need ?
 
-1. One part : `Code re-used`:
-   I have two object, like : Object A and Object B. In two object has similarity in behavior. Say two objects are same type. So, say code duplication, same work happened in two different objects. To avoid code duplication, So I am create a `super class`, and duplicate the common behavior in `super class`. Now Object A and Object B inherit from super class. Now Object A and Object now access the behavior of super class.
+* One part : 
+1. __`Code re-used`__: I have two object, like : Object A and Object B. In two object has similarity in behavior. Say two objects are same type. So, say code duplication, same work happened in two different objects. To avoid code duplication, So I am create a `super class`, and duplicate the common behavior in `super class`. Now Object A and Object B inherit from super class. Now Object A and Object now access the behavior of super class.
 
 > [!NOTE]
 > ধরি আমার কাছে দুইটি ক্লাস আছে। দুইটা ক্লাস বা অবজেক্ট এর বিহেবিয়ার সেম। তাই বলতে পারি দুইটি ক্লাস সেইম টাইপের বা সেম টাইপের কিছু কাজ করতেছে। এর ফলে এখানে কোড ডুপ্লিকেশন হচ্ছে কোড ডুপ্লিকেশন যেন না হয় তাই আমরা একটা super class ক্রিয়েট করছি, বাকি ক্লাসগুলো ওই super class থেকে সবকিছু ইনহেরিট করছে বিহেভিয়ার এবং property মানে হচ্ছে আমরা সুপার ক্লাসের মধ্যে আমরা কমন বিহেভের গুলো রাখবো।
@@ -13,7 +13,8 @@ Inheritance : `Hierarchical Classification`
 > [!NOTE]
 > এখানে এ যদি সুপার ক্লাস A হয় এবং B class যদি A class কে inherit করে তাহলে B ক্লাস A ক্লাসের সব behavior গুলো পাবে কিন্তু private behavior পাবেনা।
 
-1. Second Part : `Hierarchical Classification` Representation / Abstraction of hierarchical relationship.
+* Second Part : 
+2. __`Hierarchical Classification`__ Representation / Abstraction of hierarchical relationship.
 
 ### Important for example
 
@@ -22,7 +23,7 @@ Why 'Father' and 'son' is not a good example for Inheritance in OOP?
 > [!WARNING]
 > বাবার সব পাবলিক behavior কি ছেলের মধ্যে থাকে ? উত্তর হল না | 🙂🙃
 
-is a relationship? (check point)
+### __is a relationship?__ (check point)
 
 ### Note
 
@@ -61,5 +62,5 @@ In oop inherit means, child inherit all of behavior from parent, expect private 
 
 ## How to use inheritance properly?
 
-1. Open-closed principle
-2. Liskov substitution principle
+1. __Open-closed principle__
+2. __Liskov substitution principle__
