@@ -32,7 +32,7 @@ When the class uses another object to provide some or all of its functionality
 > [!IMPORTANT]
 > আমার যখন composition করি তখন অবজেক্ট to অবজেক্ট রিলেশন ক্রিয়েট হয়, কিন্তু তার সাথে ও একটা ডিপেন্ডেন্সি ক্রিয়েট হয়, ডিপেন্ডেন্সি যখন ক্রিয়েট হবে তখন আমরা খেয়াল করব যে একটা যেন loosely coupled করতে পারি, এরকম না হয় যে ডিপেন্ডেন্সি লেভেলের চেঞ্জ হলে আমার ক্লাস লেভেলে চেঞ্জ করতে হয় | 🧱 🥷
 
-1. `Dependency inversion principle`
+2. `Dependency inversion principle`
    - High level classes shouldn't depend on low level classes
    - Both should depend on abstractions
    - Abstraction shouldn't depend on details. Details should depend on abstractions
