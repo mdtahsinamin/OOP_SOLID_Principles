@@ -8,7 +8,7 @@ Inheritance : `Hierarchical Classification`
 1. __`Code re-used`__: I have two object, like : Object A and Object B. In two object has similarity in behavior. Say two objects are same type. So, say code duplication, same work happened in two different objects. To avoid code duplication, So I am create a `super class`, and duplicate the common behavior in `super class`. Now Object A and Object B inherit from super class. Now Object A and Object now access the behavior of super class.
 
 > [!NOTE]
-> ধরি আমার কাছে দুইটি ক্লাস আছে। দুইটা ক্লাস বা অবজেক্ট এর বিহেবিয়ার সেম। তাই বলতে পারি দুইটি ক্লাস সেইম টাইপের বা সেম টাইপের কিছু কাজ করতেছে। এর ফলে এখানে কোড ডুপ্লিকেশন হচ্ছে কোড ডুপ্লিকেশন যেন না হয় তাই আমরা একটা super class ক্রিয়েট করছি, বাকি ক্লাসগুলো ওই super class থেকে সবকিছু ইনহেরিট করছে বিহেভিয়ার এবং property মানে হচ্ছে আমরা সুপার ক্লাসের মধ্যে আমরা কমন বিহেভের গুলো রাখবো।
+> ধরি আমার কাছে দুইটি ক্লাস আছে। দুইটা ক্লাস বা অবজেক্ট এর বিহেবিয়ার সেম। তাই বলতে পারি দুইটি ক্লাস সেইম টাইপের বা সেম টাইপের কিছু কাজ করতেছে। এর ফলে এখানে কোড ডুপ্লিকেশন হচ্ছে , কোড ডুপ্লিকেশন যেন না হয় তাই আমরা একটা super class ক্রিয়েট করছি, বাকি ক্লাসগুলো ওই super class থেকে সবকিছু ইনহেরিট করছে বিহেভিয়ার এবং property মানে হচ্ছে আমরা সুপার ক্লাসের মধ্যে আমরা কমন বিহেভের গুলো রাখবো।
 
 > [!NOTE]
 > এখানে এ যদি সুপার ক্লাস A হয় এবং B class যদি A class কে inherit করে তাহলে B ক্লাস A ক্লাসের সব behavior গুলো পাবে কিন্তু private behavior পাবেনা।
