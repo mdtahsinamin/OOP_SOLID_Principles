@@ -31,7 +31,7 @@ const getOrderTotal = (order) => {
 
 - In here subtotal and tax calculation logics are encapsulate under the function.
 > [!NOTE]
-> একটা function মধ্যে কোন লজিক কে ইন encapsulate করা যায় তাকে method level encapsulate বলে 🥷
+> একটা function মধ্যে কোন লজিক কে encapsulate করা যায় তাকে method level encapsulate বলে 🥷
 
 1. Class Level:
 
