@@ -103,7 +103,7 @@ tanzirAccount.balance = 5000;
 ### Design Principles vs Design Patterns
 
 1. `Design Principles` &rarr; Simple say `Guidelines`
-2. `Design Patter` &rarr; Solutions for specific type of problems.
+2. `Design Pattern` &rarr; Solutions for specific type of problems.
 
 ### Why we need Principles and Patterns?
 
